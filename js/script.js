@@ -95,6 +95,18 @@ document.querySelectorAll('.gallery-item').forEach(item => {
 });
  /* gallery section part end */
 
+// Contact Us section part start
+document.getElementById("contactBtn").addEventListener("click", () => {
+    document.getElementById("contact").scrollIntoView({
+        behavior: "smooth"
+    });
+});
+
+
+
+// Contact Us section part end
+
+
 
 //  Footer section part start
 document.getElementById('contactForm1').addEventListener('submit', function(event) {
